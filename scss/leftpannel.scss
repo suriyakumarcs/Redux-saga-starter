@@ -1,0 +1,22 @@
+.left-pannel {
+    min-height:720px;
+    background: url('/images/black.jpg');
+    .search-box {
+        background-color: black;
+        color: white;
+    }
+    .theList {
+        list-style: none;
+        margin-top:10px;
+        padding-left: 0;
+        width: 100%;
+        .sub-list {
+            color: #333;
+            background-color: rgba(255,255,255,.5);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+    }
+    // background-color: black;
+}

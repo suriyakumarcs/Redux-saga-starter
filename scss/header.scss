@@ -1,0 +1,34 @@
+.body-row {
+    width: 100%;
+    margin: 0px;
+    .header {
+        background-color: #20232A;
+        .heading {
+            color:#5FD5F5;
+        }
+        font-style:san serif;
+        height:50px;
+        .image {
+            height:20px;
+            text-align:center;
+            margin-top: 10px;
+        }
+        .heading {
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+    
+        .content-row {
+            width: 100%;
+        }
+        .nav-menu {
+            padding-bottom: 0px !important;
+        }
+    }
+    .body-column {
+        padding: 0px !important;
+    }
+}

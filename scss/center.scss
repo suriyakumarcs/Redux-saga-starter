@@ -1,0 +1,46 @@
+.modal{ display:block; }
+
+.line {
+    fill: none;
+    stroke: #7dc7f4;
+    stroke-width: 5px;
+
+}
+
+.employee {
+    width: 100%;
+    height: 100%;
+    .header {
+        font-size: 20px;
+        color: #000;
+        background-color: #ffff !important;
+        margin: 15px;
+        text-transform: capitalize;
+    }
+    .employee-table{
+        height: 100%;
+        table {
+            border: 1px solid #525151;
+            width: 100%;
+            height: 100%;
+            margin: 15px;
+            th,td {
+                text-align: center;
+            }
+            tr {
+                border-bottom: 1px solid #525151;
+            } 
+        }
+    }
+    .employee-row {
+        margin: 1%;
+        max-height: 370px;
+        min-height: 370px;
+    }
+    .form-error {
+        color: #A94442;
+    }
+    .form-warning {
+        color: #8A6D3B;
+    }
+}
